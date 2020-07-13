@@ -8,25 +8,6 @@ b = 100;
 printf("a의 값은 %d이고 b의 값은 %d입니다", a, b);
 return 0;
 }
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()  {
-int a;
-a = 30;
-printf("%d의 제곱값은 %d입니다", a, a*a);
-return 0;
-}
-#include <stdio.h>
-int main() {
-char m, n;
-m = 'A';
-n = 65;
-printf("m의 값 출력 : %c \n", m);
-printf("n의 값 출력 : %c \n", n);
-printf("아스키 코드 65 값 출력 : %c \n", 65);
-printf("아스키 코드 65+1 값 출력 : %c \n", 66);
-return 0;
 
 }
 #include <stdio.h>
