@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+	int x, y, w, h;
+	int i, j;
+	scanf("%d %d %d %d", &x, &y, &w, &h);
+	if(w - x > x) i = x;
+	else i = w - x;
+	if(h - y > y) j = y;
+	else j = h - y;
+	if(i > j) printf("%d", j);
+	else printf("%d", i);
+	return 0;
+}
